@@ -46,7 +46,7 @@ class WilayahExcelExport implements FromCollection, WithHeadings, WithStyles, Wi
     public function headings(): array
     {
         return [
-            'No',
+            '#',
             'Kode Wilayah',
             'Nama Wilayah',
             'Luas Wilayah (km)',
