@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <h2>Data Spesies</h2>
+    <h2>Tabel Data Spesies</h2>
     <table>
         <thead>
             <tr>

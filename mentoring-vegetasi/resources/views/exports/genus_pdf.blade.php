@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <h2>Data Genus</h2>
+    <h2>Tabel Data Genus</h2>
     <table>
         <thead>
             <tr>

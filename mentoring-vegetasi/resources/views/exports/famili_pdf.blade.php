@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h2>Data Famili</h2>
+    <h2>Tabel Data Famili</h2>
     <table>
         <thead>
             <tr>

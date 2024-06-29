@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <h2>Data Ordo</h2>
+    <h2>Tabel Data Ordo</h2>
     <table>
         <thead>
             <tr>
