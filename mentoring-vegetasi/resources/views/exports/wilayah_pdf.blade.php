@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h1>Wilayah</h1>
+    <h1>Tabel Data Wilayah</h1>
     <table>
         <thead>
             <tr>
