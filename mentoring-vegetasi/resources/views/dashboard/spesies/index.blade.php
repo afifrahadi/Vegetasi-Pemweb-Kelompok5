@@ -23,7 +23,7 @@
             <div class="d-flex gap-2">
                 <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal"
                     data-bs-target="#formModal">Tambah Data</button>
-                    <a href="{{ route('dashboard.spesies.export.excel') }}" class="btn btn-success">Export to Excel</a>
+                    <a href="{{ route('dashboard.spesies.export.excel') }}" class="btn btn-sm btn-success">Export to Excel</a>
                     <a href="{{ route('dashboard.spesies.export.pdf') }}" class="btn btn-sm btn-danger">Export to PDF</a>
             </div>
         </x-slot:action>
