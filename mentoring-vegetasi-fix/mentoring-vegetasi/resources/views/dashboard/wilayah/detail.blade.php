@@ -4,6 +4,7 @@
 
 @section('content')
     <h1>Detail Wilayah {{ $wilayah->name }}</h1>
+    <a href="{{ url()->previous() }}" class="btn btn-sm btn-soft-primary">&leftarrow; Kembali</a>
 
     <canvas id="myChart" width="400" height="100"></canvas>
 

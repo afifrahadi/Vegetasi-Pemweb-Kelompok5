@@ -83,7 +83,7 @@
             <label for="tinggi" class="form-label">Tinggi</label>
             <div class="input-group">
                 <input type="number" name="tinggi" id="tinggi" class="form-control">
-                <span class="input-group-text">m</span>
+                <span class="input-group-text">cm</span>
             </div>
         </div>
         <div>
@@ -172,7 +172,7 @@
                 <div class="input-group">
                     <input type="number" name="tinggi" id="tinggi" class="form-control"
                         value="{{ $spesies->tinggi }}">
-                    <span class="input-group-text">m</span>
+                    <span class="input-group-text">cm</span>
                 </div>
             </div>
             <div>
