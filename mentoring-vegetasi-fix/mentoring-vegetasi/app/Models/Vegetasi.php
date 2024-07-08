@@ -23,4 +23,9 @@ class Vegetasi extends Model
                 get: fn (mixed $value, array $attributes) => \Str::words($attributes['nama_vegetasi'], 10, ' ...'),
             );
         }
+
+        public function spesies()
+        {
+            return $this->hasMany(Spesies::class, 'fk_id_vegetasi', 'id');
+        }
 }

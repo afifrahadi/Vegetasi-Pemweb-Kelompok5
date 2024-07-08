@@ -46,7 +46,7 @@
                     fillColor: markerColor,
                     fillOpacity: 0.8
                 }).addTo(map)
-                    .bindPopup('<b>' + spesies.nama_spesies + '</b><br>' + spesies.deskripsi);
+                .bindPopup('<a href="{{ route('dashboard.spesies.show', '') }}/' + spesies.id + '">' + spesies.nama_spesies + '</a><br>' + spesies.longitude + ' ; ' + spesies.latitude);
 
         });
 

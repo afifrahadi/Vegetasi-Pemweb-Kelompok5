@@ -38,7 +38,7 @@
                     <p>
                         Aplikasi Monitoring Vegetasi adalah sebuah platform berbasis web yang dirancang untuk memantau
                         dan
-                        mengelola data vegetasi di Indonesia, mencakup seluruh provinsi. Aplikasi ini memungkinkan
+                        mengelola data vegetasi di Indonesia, yang dapat mencakup seluruh provinsi. Aplikasi ini memungkinkan
                         pengguna,
                         mulai dari pemerintah, peneliti, hingga masyarakat umum, untuk mengakses informasi terkini
                         mengenai

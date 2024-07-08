@@ -47,6 +47,8 @@
                             <td>{{ $wilayah->area }}</td>
                             <td>
                                 <div class="d-flex flex-nowrap gap-2">
+                                    <a href="{{ route('dashboard.wilayah.show', $wilayah->id) }}"
+                                        class="btn btn-sm btn-soft-info">Detail</a>
                                     <a href="#" role="button" class="btn btn-sm btn-soft-warning"
                                         data-bs-toggle="modal" data-bs-target="#formModal-{{ $loop->iteration }}">Ubah</a>
                                     <button class="btn btn-sm btn-soft-danger" data-bs-toggle="modal"

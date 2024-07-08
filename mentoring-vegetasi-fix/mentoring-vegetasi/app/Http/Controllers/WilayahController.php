@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Exports\WilayahExcelExport;
 use App\Models\Wilayah;
+use App\Models\Vegetasi;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\WilayahPdfExport;
@@ -40,7 +41,15 @@ class WilayahController extends Controller
 
     public function show(Wilayah $wilayah)
     {
-        //
+        $page_title = "Detail Wilayah";
+        $vegetasiData = Vegetasi::withCount(['spesies' => function ($query) use ($wilayah) {
+            $query->where('fk_id_wilayah', $wilayah->id);
+        }])->get();
+
+        $labels = $vegetasiData->pluck('nama_vegetasi');
+        $data = $vegetasiData->pluck('spesies_count');
+
+        return view('dashboard.wilayah.detail', compact('page_title', 'wilayah', 'labels', 'data'));
     }
 
         /**

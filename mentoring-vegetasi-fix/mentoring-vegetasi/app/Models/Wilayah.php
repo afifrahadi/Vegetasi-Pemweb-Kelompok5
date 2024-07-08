@@ -10,5 +10,8 @@ class Wilayah extends Model
     use HasFactory;
     protected $fillable = ['code', 'name', 'area'];
 
-    
+    public function spesies()
+    {
+        return $this->hasMany(Spesies::class);
+    }
 }

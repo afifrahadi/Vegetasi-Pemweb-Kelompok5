@@ -128,6 +128,3 @@ Route::group(['prefix' => 'admin'], function () {
         Route::delete('dashboard/{user}',[AdminDashboardController::class,'destroy'])->name('admin.dashboard.delete');
     });
 });
-
-
-

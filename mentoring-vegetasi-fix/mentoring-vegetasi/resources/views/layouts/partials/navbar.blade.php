@@ -8,7 +8,7 @@
         [
             'label' => 'Wilayah',
             'route' => route('dashboard.wilayah.index'),
-            'is_active' => request()->routeIs('dashboard.wilayah.index'),
+            'is_active' => request()->Is('dashboard/wilayah*'),
         ],
         [
             'label' => 'Vegetasi',
